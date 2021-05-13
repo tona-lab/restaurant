@@ -1,0 +1,76 @@
+.navbar{
+
+max-height: 115px;
+
+}
+
+.cabeza{
+    float: left;
+    width: 180px;
+    height: 180px;
+
+}
+
+
+#menu{
+margin-left: 30%;
+width: 400px;
+background-color: red;
+
+
+}
+
+
+/*esto es para el slider de la pagina index(inicio)*/
+ul{
+    padding-left:0;
+    }
+
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    }
+div#slider{
+	width:60%;
+	margin:auto;
+    overflow: hidden;
+    
+}
+
+div#slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate;
+}
+
+div#slider li {
+	width: 100%;
+	list-style: none;
+}
+
+div#slider img{
+	width: 100%;	
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
+
+/*aqui termina el slider*/
+
+/*aqui inicia el footer*/
+
+
